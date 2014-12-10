@@ -1,0 +1,34 @@
+<UserScriptConfig>
+	<Script basedir="Scotialbank_Canadian_IQ_-_Answer" checkRemoteUpdates="1" dependhash="5a52809c794b9fc236eae6cd6958904b3274e7fe" description="enter something useful" enabled="true" noframes="false" filename="Scotialbank_Canadian_IQ_-_Answer.user.js" installTime="1408137793298" modified="1418163106374" name="Scotialbank Canadian IQ - Answer" namespace="http://use.i.E.your.homepage/" runAt="document-end" updateMetaStatus="unknown" uuid="b7e0945d-6fcd-4787-b78e-795fb2b79da3" version="0.1" installurl="file:///C:/Users/AlicJ/Documents/Yourtrust/gm_scripts/Scotialbank_Canadian_IQ_-_Answer/Scotialbank_Canadian_IQ_-_Answer.user.js" updateurl="file:///C:/Users/AlicJ/Documents/Yourtrust/gm_scripts/Scotialbank_Canadian_IQ_-_Answer/Scotialbank_Canadian_IQ_-_Answer.user.js">
+		<Grant>none</Grant>
+		<UserInclude>http://www.fundyourfuture.ca/canadianIQ/Quiz.aspx</UserInclude>
+		<Match>http://www.fundyourfuture.ca/canadianIQ/Quiz.aspx</Match>
+		<Require filename="jquery-1.11.0.min.js"/>
+	</Script>
+	<Script basedir="Scotialbank_Canadian_IQ_-_Play_Again" checkRemoteUpdates="1" dependhash="5a52809c794b9fc236eae6cd6958904b3274e7fe" description="enter something useful" enabled="true" noframes="false" filename="Scotialbank_Canadian_IQ_-_Play_Again.user.js" installTime="1408137808868" modified="1408137808868" name="Scotialbank Canadian IQ - Play Again" namespace="http://use.i.E.your.homepage/" runAt="document-end" updateMetaStatus="unknown" uuid="0528cac3-d2ae-416f-99f9-c3873d61969e" version="0.1" installurl="file:///C:/Users/AlicJ/Documents/Yourtrust/gm_scripts/Scotialbank_Canadian_IQ_-_Play_Again/Scotialbank_Canadian_IQ_-_Play_Again.user.js" updateurl="file:///C:/Users/AlicJ/Documents/Yourtrust/gm_scripts/Scotialbank_Canadian_IQ_-_Play_Again/Scotialbank_Canadian_IQ_-_Play_Again.user.js">
+		<Grant>none</Grant>
+		<UserInclude>http://www.fundyourfuture.ca/canadianIQ/Results.aspx</UserInclude>
+		<Match>http://www.fundyourfuture.ca/canadianIQ/Results.aspx</Match>
+		<Require filename="jquery-1.11.0.min.js"/>
+	</Script>
+	<Script basedir="Avenue_Pearson_E-text_Height_setter" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="null" enabled="true" noframes="false" filename="Avenue_Pearson_E-text_Height_setter.user.js" installTime="1411239138163" modified="1412381867750" name="Avenue Pearson E-text Height setter" namespace="null" runAt="document-end" updateMetaStatus="unknown" uuid="547ae757-cd97-42d7-b104-34b9512894bc" version="0.1" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue_Pearson_E-text_Height_setter/Avenue_Pearson_E-text_Height_setter.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue_Pearson_E-text_Height_setter/Avenue_Pearson_E-text_Height_setter.user.js">
+		<Grant>none</Grant>
+		<UserInclude>https://avenue.cllmcmaster.ca/d2l/le/content/*/fullscreen/*</UserInclude>
+		<Match>https://avenue.cllmcmaster.ca/d2l/le/content/*/fullscreen/*</Match>
+	</Script>
+	<Script basedir="Avenue-Auto-Login" checkRemoteUpdates="1" dependhash="5a52809c794b9fc236eae6cd6958904b3274e7fe" description="" enabled="true" noframes="false" filename="Avenue-Auto-Login.user.js" installTime="1418162815977" modified="1418163003777" name="Avenue-Auto-Login-Part-1" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="0e72dfdb-b087-483e-b611-ee85935e50b4" version="1" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-Login/Avenue-Auto-Login.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-Login/Avenue-Auto-Login.user.js">
+		<Grant>none</Grant>
+		<Include>http://avenue.mcmaster.ca/</Include>
+		<UserInclude>http://avenue.mcmaster.ca/#</UserInclude>
+		<Require filename="jquery-1.11.0.min.js"/>
+	</Script>
+	<Script basedir="Avenue-Auto-login-part-2" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" noframes="false" filename="Avenue-Auto-login-part-2.user.js" installTime="1418162984533" modified="1418254771226" name="Avenue-Auto-login-part-2" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="b147624a-ef66-4b65-8d4a-853a52ef8458" version="1" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-login-part-2/Avenue-Auto-login-part-2.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-login-part-2/Avenue-Auto-login-part-2.user.js">
+		<Grant>none</Grant>
+		<Include>https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&amp;app_name=McMaster%20e-Learning</Include>
+	</Script>
+	<Script basedir="McMasterEmailLogin" checkRemoteUpdates="1" dependhash="5a52809c794b9fc236eae6cd6958904b3274e7fe" description="" enabled="true" noframes="false" filename="McMasterEmailLogin.user.js" installTime="1418245452795" modified="1418245557108" name="McMasterEmailLogin" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="6616f6d8-f6e4-4f98-bc44-e3b54586e6da" version="1.0" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/McMasterEmailLogin/McMasterEmailLogin.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/McMasterEmailLogin/McMasterEmailLogin.user.js">
+		<Grant>none</Grant>
+		<Include>https://sso.mcmaster.ca/shibboleth-idp/Authn/UserPassword</Include>
+		<Require filename="jquery-1.11.0.min.js"/>
+	</Script>
+</UserScriptConfig>
