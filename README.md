@@ -40,3 +40,4 @@ Internet Explorer
 You are joking, right?
 
 1. Switch to a browser mentioned above
+2. Follow the instructions above
