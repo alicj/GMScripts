@@ -2,7 +2,7 @@
 // @name        Avenue2Learn-Improve
 // @namespace   avenue
 // @include		https://avenue.cllmcmaster.ca/*
-// @version     0.1
+// @version     0.1.1
 // @grant       none
 
 // @description
