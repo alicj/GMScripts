@@ -37,5 +37,6 @@ Not tested, since I don't own a Mac
 
 Internet Explorer
 --------
-+ You are joking, right?
-+ Switch to a browser mentioned above
+You are joking, right?
+
+1. Switch to a browser mentioned above
