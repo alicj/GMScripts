@@ -34,9 +34,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		setTimeout(function() {
 			$('#submit').click();
 		}, 500);
-	// otherwise just click to open up the pop up
+	// otherwise just replace with login page
 	} else{
-		var login = document.getElementById('login_button')
-		login.click();
+		document.location.replace("https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning")
 	}
 });
