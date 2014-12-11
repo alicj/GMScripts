@@ -29,7 +29,7 @@
 
 $(document).ready(function() {
 // document.addEventListener("DOMContentLoaded", function(event) {
-	// if url matches the pop up window
+	// if url matches the log in window
 	if (document.URL == "https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning") {
 	   	// $('#user_id').val('<MACID>');
 	   	// $('#pin').val('<password>');
