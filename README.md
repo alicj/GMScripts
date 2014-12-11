@@ -32,7 +32,7 @@ Not tested, since I don't own a Mac
 
 1. Download GreaseKit for Mac (http://www.macupdate.com/app/mac/20718/greasekit)
 2. Not sure how to install js on that, follow their instructions
-3. Tell me if anything doesn't work
+3. Tell me if anything doesn't work. Though I probably can't fix any, cause lack of Mac.
 
 
 Internet Explorer
