@@ -1,8 +1,8 @@
 Avenue Auto Log-in
 =====
-With this script, you do not need to do any clicking to access Avenue to Learn (usually two clickings).
+With this script, you do not need to do any clicking to access your McMaster email account (usually two clickings).
 
-Simply go to http://avenue.mcmaster.ca/, and everything will be done for you.
+Simply go to http://studentmail.mcmaster.ca/, and everything will be done for you.
 
 The script will not collect any user data whatsoever. If you do not trust me, do not use it.
 
