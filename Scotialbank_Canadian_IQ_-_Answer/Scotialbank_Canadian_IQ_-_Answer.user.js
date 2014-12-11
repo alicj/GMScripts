@@ -2,11 +2,25 @@
 // @name       Scotialbank Canadian IQ - Answer
 // @namespace  http://use.i.E.your.homepage/
 // @version    0.1
-// @description  enter something useful
+
 // @match      http://www.fundyourfuture.ca/canadianIQ/Quiz.aspx
 // @copyright  2012+, You
 // @require    http://code.jquery.com/jquery-1.11.0.min.js
 // @grant       none
+
+// @description  
+// This was for a quiz published by Scotial Bank
+// The more quizes completed, the more likely one will win $1200 worth of scholarship
+// So after a few tries, I observed their quiz webpage and wrote this little script
+// to answer quizes automatically.
+// It will not answer the questions, but since I set up a AWS server
+// I also write correct answers with questions to the database
+// So instead of random guessing, my script answers questions better and better
+
+// It has to work with the 'Scotialbank_Canadian_IQ_-_Play_Again' script
+// so that it will automatically click the next quiz button
+// I could have incoproate it in this script by including that url
+// but since the quiz ended, no need.
 // ==/UserScript==
 var timeFactor = 100;
 function isAnswered() {
@@ -102,11 +116,13 @@ $(document) .ready(function () {
     var question = getQuestion();
     console.log(question);
     $.ajax({
-      url: 'http://54.86.232.229/canadianiq/php/getAnswer.php',
+      url: 'http://<your_server_ip_here>/canadianiq/php/getAnswer.php',
       type: 'POST',
       data: {
         'qText': question,
-        'auth': 'jzc0519'
+        // I have this auth to make sure that
+        // no one else can access my files on the server
+        'auth': ''
       },
       cache: false,
       success: function (response) {
