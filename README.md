@@ -8,21 +8,23 @@ How to install
 =========
 FireFox
 ---------
-Tested with FireFox 34.0.5, but the version should not matter
+Tested with FireFox 34.0.5, but the version should not matter, as long as you have GreaseMonkey installed
 
 1. Install GreaseMonkey Add-on (https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/）
 2. Download the js file you want (not the jQuery ones)
 3. Drag them onto your browser
-4. Enjoy!
+4. Follow the instructions on pop up
+5. Enjoy!
 
 Chrome 
 ---------
-Not all files are tested. Should probably all work though. Tell me if they don't
+Not all files are tested. Should probably all work though. Tell me if they don't.
 
 1. Install TemperMonkey Add-on (https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en）
 2. Download the js file you want (not the jQuery ones)
 3. Drag them onto your browser
-4. Enjoy!
+4. Follow the instructions on pop up
+5. Enjoy!
 
 Safari
 --------
