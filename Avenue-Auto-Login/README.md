@@ -1,6 +1,8 @@
 Avenue Auto Log-in
 =====
-With this script, you do not need to do any clicking to access Avenue to Learn
+With this script, you do not need to do any clicking to access Avenue to Learn.
+
+Simply go to http://avenue.mcmaster.ca/, and everything will be done for you.
 
 Caution
 -----
