@@ -4,6 +4,7 @@
 // @include     http://avenue.mcmaster.ca/
 // @include     http://avenue.mcmaster.ca/#
 // @include     https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning
+// @require    http://code.jquery.com/jquery-1.11.0.min.js
 // @version     1.0
 // @grant       none
 
@@ -21,12 +22,13 @@
 // I used firefox to remember and fill in my MACID and password for me
 // If you don't have that, you can use the following line to fill them in
 // by replacing whatever is in <> by your actually information
-// though I highly do not recommand this
-// As your information may be leaked easily
+// though I highly do not recommand this,
+// as your information may be leaked easily
 // PS: If you fill those in, there is no way I can 'send' them to me in this script
 // PS2: horrible naming on their input fields, btw.
 
-document.addEventListener("DOMContentLoaded", function(event) {
+$(document).ready(function() {
+// document.addEventListener("DOMContentLoaded", function(event) {
 	// if url matches the pop up window
 	if (document.URL == "https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning") {
 	   	// $('#user_id').val('<MACID>');
