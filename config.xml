@@ -28,7 +28,7 @@
 		<Include>https://sso.mcmaster.ca/shibboleth-idp/Authn/UserPassword</Include>
 		<Require filename="jquery-1.11.0.min.js"/>
 	</Script>
-	<Script basedir="Avenue2Learn-Improve" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" noframes="false" filename="Avenue2Learn-Improve.user.js" installTime="1418263981971" modified="1418266669098" name="Avenue2Learn-Improve" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="7a12ddea-eced-47b6-bb9f-e89346a4d15b" version="1.0" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue2Learn-Improve/Avenue2Learn-Improve.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue2Learn-Improve/Avenue2Learn-Improve.user.js">
+	<Script basedir="Avenue2Learn-Improve" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" noframes="false" filename="Avenue2Learn-Improve.user.js" installTime="1418263981971" modified="1418268067816" name="Avenue2Learn-Improve" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="7a12ddea-eced-47b6-bb9f-e89346a4d15b" version="0.1" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue2Learn-Improve/Avenue2Learn-Improve.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue2Learn-Improve/Avenue2Learn-Improve.user.js">
 		<Grant>none</Grant>
 		<Include>https://avenue.cllmcmaster.ca/*</Include>
 	</Script>
