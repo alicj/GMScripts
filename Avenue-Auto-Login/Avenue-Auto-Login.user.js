@@ -4,9 +4,11 @@
 // @include     http://avenue.mcmaster.ca/
 // @include     http://avenue.mcmaster.ca/#
 // @include     https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning
-// @require    http://code.jquery.com/jquery-1.11.0.min.js
 // @version     1.0
 // @grant       none
+
+// WARNING: DO NOT IMPORT JQUERY INTO THIS SCRIPT
+// IT WILL CAUSE PROBLEM ON THE LOG IN PAGE
 
 // @description
 // We all know that, universities give shit about their website/UX
@@ -27,17 +29,25 @@
 // PS: If you fill those in, there is no way I can 'send' them to me in this script
 // PS2: horrible naming on their input fields, btw.
 
-$(document).ready(function() {
-// document.addEventListener("DOMContentLoaded", function(event) {
-	// if url matches the log in window
-	if (document.URL == "https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning") {
-	   	// $('#user_id').val('<MACID>');
+document.addEventListener("DOMContentLoaded", function(event) {
+
+	// get current url
+	curURL = document.URL;
+	// if is the avenue page
+	if (curURL.contains('http://avenue.mcmaster.ca/')){
+		// get onclick content
+		var button = document.getElementById("login_button");
+		var clickText = button.attributes['onclick'].value;
+		// get pop up url
+		var url = clickText.split("'")[1];
+		// replace with log in page
+		document.location.replace(url);
+	} else {
+		// otherwise it is the login page, log in!
+		// $('#user_id').val('<MACID>');
 	   	// $('#pin').val('<password>');
 		setTimeout(function() {
 			$('#submit').click();
-		}, 500);
-	// otherwise just replace with login page
-	} else{
-		document.location.replace("https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning")
+		}, 100); // set to 100 just in case, can increase or decrease
 	}
 });

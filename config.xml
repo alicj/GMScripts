@@ -16,17 +16,20 @@
 		<UserInclude>https://avenue.cllmcmaster.ca/d2l/le/content/*/fullscreen/*</UserInclude>
 		<Match>https://avenue.cllmcmaster.ca/d2l/le/content/*/fullscreen/*</Match>
 	</Script>
-	<Script basedir="Avenue-Auto-Login" checkRemoteUpdates="1" dependhash="5a52809c794b9fc236eae6cd6958904b3274e7fe" description="" enabled="true" noframes="false" filename="Avenue-Auto-Login.user.js" installTime="1418162815977" modified="1418262402904" name="Avenue-Auto-Login-Part-1" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="0e72dfdb-b087-483e-b611-ee85935e50b4" version="1.0" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-Login/Avenue-Auto-Login.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-Login/Avenue-Auto-Login.user.js">
+	<Script basedir="Avenue-Auto-Login" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" noframes="false" filename="Avenue-Auto-Login.user.js" installTime="1418162815977" modified="1418263731494" name="Avenue-Auto-Login-Part-1" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="0e72dfdb-b087-483e-b611-ee85935e50b4" version="1.0" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-Login/Avenue-Auto-Login.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue-Auto-Login/Avenue-Auto-Login.user.js">
 		<Grant>none</Grant>
 		<Include>http://avenue.mcmaster.ca/</Include>
 		<Include>http://avenue.mcmaster.ca/#</Include>
 		<Include>https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&amp;app_name=McMaster%20e-Learning</Include>
 		<UserInclude>http://avenue.mcmaster.ca/#</UserInclude>
-		<Require filename="jquery-1.11.0.min.js"/>
 	</Script>
 	<Script basedir="McMasterEmailLogin" checkRemoteUpdates="1" dependhash="5a52809c794b9fc236eae6cd6958904b3274e7fe" description="" enabled="true" noframes="false" filename="McMasterEmailLogin.user.js" installTime="1418245452795" modified="1418258016271" name="McMasterEmailLogin" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="6616f6d8-f6e4-4f98-bc44-e3b54586e6da" version="1.0" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/McMasterEmailLogin/McMasterEmailLogin.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/McMasterEmailLogin/McMasterEmailLogin.user.js">
 		<Grant>none</Grant>
 		<Include>https://sso.mcmaster.ca/shibboleth-idp/Authn/UserPassword</Include>
 		<Require filename="jquery-1.11.0.min.js"/>
+	</Script>
+	<Script basedir="Avenue2Learn-Improve" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" noframes="false" filename="Avenue2Learn-Improve.user.js" installTime="1418263981971" modified="1418266669098" name="Avenue2Learn-Improve" namespace="avenue" runAt="document-end" updateMetaStatus="unknown" uuid="7a12ddea-eced-47b6-bb9f-e89346a4d15b" version="1.0" installurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue2Learn-Improve/Avenue2Learn-Improve.user.js" updateurl="file:///C:/Users/AlicJ/AppData/Roaming/Mozilla/Firefox/Profiles/ek7qochk.default-1408136685502/gm_scripts/Avenue2Learn-Improve/Avenue2Learn-Improve.user.js">
+		<Grant>none</Grant>
+		<Include>https://avenue.cllmcmaster.ca/*</Include>
 	</Script>
 </UserScriptConfig>
