@@ -8,7 +8,10 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
     if (document.URL == "https://adweb.cis.mcmaster.ca/cis/ahtml/login.htm") {
-        //It is assumed that your browser autofills your login data
-        document.getElementsByName('Submit')[0].click(); //Just clicks the login button
+        //Either your browser can fill in the login data or you can fill it in below
+        //YOUR LOGIN INFO HERE
+        document.getElementsByName("credential_0")[0].value = "XXXX";
+        document.getElementsByName("credential_1")[0].value = "XXXX";
+        document.getElementsByName('Submit')[0].click();
     }   
 });
