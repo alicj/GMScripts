@@ -1,0 +1,14 @@
+// ==UserScript==
+// @name         Mugsi Log In Script
+// @namespace      Mugsi Log In Script
+// @version			1.0
+// @description    Quickly logs into mugsi
+// @include        https://adweb.cis.mcmaster.ca/cis/ahtml/login.htm
+// ==/UserScript==
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    if (document.URL == "https://adweb.cis.mcmaster.ca/cis/ahtml/login.htm") {
+        //It is assumed that your browser autofills your login data
+        document.getElementsByName('Submit')[0].click(); //Just clicks the login button
+    }   
+});
