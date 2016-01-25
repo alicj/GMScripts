@@ -4,6 +4,7 @@
 // @include     http://avenue.mcmaster.ca/
 // @include     http://avenue.mcmaster.ca/#
 // @include     https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning
+// @include 	https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=Avenue
 // @version     1.0
 // @grant       none
 
