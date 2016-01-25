@@ -1,8 +1,7 @@
 // ==UserScript==
 // @name        Avenue-Auto-Login-Part-1
 // @namespace   avenue
-// @include     http://avenue.mcmaster.ca/
-// @include     http://avenue.mcmaster.ca/#
+// @include     http://avenue.mcmaster.ca/*
 // @include     https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=McMaster%20e-Learning
 // @include 	https://cap.mcmaster.ca/mcauth/login.jsp?app_id=702&app_name=Avenue
 // @version     1.0
@@ -30,25 +29,32 @@
 // PS: If you fill those in, there is no way I can 'send' them to me in this script
 // PS2: horrible naming on their input fields, btw.
 
-document.addEventListener("DOMContentLoaded", function(event) {
+console.log("script loaded");
+// get current url
+curURL = document.URL;
+// if is the avenue page
+if (curURL.includes('http://avenue.mcmaster.ca/')){
+    // replace with log in page
+    document.location.replace("http://avenue.mcmaster.ca/login.php");
+}
 
-	// get current url
-	curURL = document.URL;
-	// if is the avenue page
-	if (curURL.contains('http://avenue.mcmaster.ca/')){
-		// get onclick content
-		var button = document.getElementById("login_button");
-		var clickText = button.attributes['onclick'].value;
-		// get pop up url
-		var url = clickText.split("'")[1];
-		// replace with log in page
-		document.location.replace(url);
-	} else {
-		// otherwise it is the login page, log in!
-		// $('#user_id').val('<MACID>');
-	   	// $('#pin').val('<password>');
-		setTimeout(function() {
-			$('#submit').click();
-		}, 100); // set to 100 just in case, can increase or decrease
-	}
-});
+document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+      console.log(state);
+  } else if (state == 'complete') {
+      initOnCompleteLoad()
+  }
+}
+
+function initOnCompleteLoad() {
+    if (curURL.includes('https://cap.mcmaster.ca/')){
+        // $('#user_id').val('<MACID>');
+        // $('#pin').val('<password>');
+        console.log("click");
+        $("#user_id").focus()
+        setTimeout(function() {
+            $('#submit').click();
+        }, 1000); // set to 500 just in case, can increase or decrease
+    }
+}
